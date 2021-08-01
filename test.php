@@ -13,3 +13,11 @@ $a = '{"Title": "The Cuckoos Calling",
     $j1 = json_decode($a,true);
     array_walk_recursive($j1,"w3rfunction");
     ?>
+
+
+//{"Title": "The Cuckoos Calling",
+"Author": "Robert Galbraith",
+"Detail": {
+"Publisher": "Little Brown"
+}}
+Expected Output :
